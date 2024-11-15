@@ -3,7 +3,7 @@
 For deploying Grafana, Prometheus and Node Exporter, make these steps:
 1. Deploy stack
 ```
-git clone https://github.com/digitalstudium/grafana-docker-stack.git
+git clone https://github.com/dnalimka/PromGraf.git
 docker stack deploy -c grafana-docker-stack/docker-compose.yml monitoring
 ```
 2. Add prometheus datasource with address `http://prometheus:9090` to grafana
